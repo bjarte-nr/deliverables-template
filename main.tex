@@ -1,4 +1,4 @@
-\documentclass{SINet}
+\documentclass{PriMa}
 \usepackage{ifthen}
 \usepackage[printonlyused,nohyperlinks]{acronym}
 \usepackage{units}
@@ -30,68 +30,27 @@
 
 \begin{document}
 
-%% Enter the deliverable information  in this document (tittle.tex)	
+%% Enter the deliverable information in the file "title.tex":	
 \input{title}
 
-
-
-
-% \oddsidemargin=5mm
-% \evensidemargin=5mm
-% \textwidth=30cm
-
-% \topmargin=0cm
-% \textheight=40\baselineskip
 \setcounter{tocdepth}{2}
 
 \tableofcontents
 \listoffigures
-\begingroup
-\let\clearpage\relax
+% \begingroup
+% \let\clearpage\relax
 \listoftables
-\endgroup
+% \endgroup
 
-%% SHOULD be included if the deliverable becomes large
-\input{executivesummary}
+\input{abstract}
+
+\input{disclaimer}
 
 \input{acronyms}
 
 % ------------------------
-% Chapter
+% Chapters
 % ------------------------
-
-\clearscrheadfoot 
-
-% uncomment for book mode
-%\lofoot{\footerlogo}
-%\refoot{\footerlogo}
-%\lefoot{\footertext}
-%\rofoot{\footertext}
-
-%\rohead{\pagemark}
-%\lohead{\DelTitle}
-%\lehead{\pagemark}
-%\rehead{\DelTitle}
-
-%\cfoot[\pagemark]{}
-
-\lofoot[\footerlogo \hspace{10pt} \footertext]{\footerlogo \hspace{10pt} \footertext}
-\lefoot[\footerlogo \hspace{10pt} \footertext]{\footerlogo \hspace{10pt} \footertext}
-
-\refoot[\pagemark]{\pagemark}
-\rofoot[\pagemark]{\pagemark}
-
-\rohead{\rightmark}
-\rehead{\rightmark}
-
-\lohead{\leftmark}
-\lehead{\leftmark}
-
-
-
-
-\setcounter{page}{1}
-\pagestyle{scrheadings}
 
 \input{chapters/introduction}
 \input{chapters/chapter-XXX}
@@ -100,7 +59,6 @@
 \bibliography{bib/references}
 \appendix
 \input{appendix.tex}
-\input{back.tex}
 
 %\printbibliography
 \end{document}

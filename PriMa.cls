@@ -1,9 +1,10 @@
 %%---------------------------------------------------
 %% BASED ON: http://netcommons.eu/
 %% Edited by David Palma, SINet: https://sinet.item.ntnu.no
+%% (tweaked by Bjarte M. Østvold for PriMa: https://www.prima-itn.eu/)
 %%---------------------------------------------------
 %\NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{SINet}
+\ProvidesClass{PriMa}
 \LoadClass[a4paper,twoside,final,10pt,headings=small]{scrreprt}
 % --------------------------------------------
 % Load packages
@@ -18,7 +19,7 @@
 \usepackage{framed}
 \usepackage{fancybox}
 %REMOVED \usepackage{fancyhdr}
-\usepackage[automark,headsepline]{scrlayer-scrpage}
+\usepackage[automark]{scrlayer-scrpage}
 %\usepackage{fancyvrb}
 \usepackage{scrhack}
 \usepackage{float}
@@ -34,16 +35,23 @@
 \usepackage{lastpage}
 \usetikzlibrary{calc}
 % Color Links
-\usepackage[pdftex,hyperfigures,hyperindex,bookmarksnumbered,colorlinks, bookmarks, breaklinks, linktocpage,citecolor=blue,urlcolor=blue,linkcolor=black,pdftitle={SINet},pdfauthor={SINet}]{hyperref}
+\usepackage[pdftex,hyperfigures,hyperindex,bookmarksnumbered,colorlinks, bookmarks, breaklinks, linktocpage,citecolor=blue,urlcolor=blue,linkcolor=black,pdftitle={PriMa},pdfauthor={PriMa}]{hyperref}
 \usepackage{graphicx}
 \usepackage[a4paper,margin=2cm,heightrounded]{geometry}
 \graphicspath{{images/}}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
 
+%% Make sections blue
+\usepackage{sectsty}
+\definecolor{primablue}{HTML}{1569C7}
+\allsectionsfont{\color{primablue}}
+
 %%--Set the section number depth.
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{4}
 \setcounter{page}{2}
+
+\setkomafont{pageheadfoot}{\small} % Make footer small and upright (cf. koma doc)
 
 \bibliographystyle{IEEEtran}
 \sloppy

@@ -1,7 +1,9 @@
 
 #H2020 Deliverable LaTeX Template
 
-This template was adapted from the netCommons project template [🔗](http://www.netcommons.eu).
+This template was adapted from SINet template
+[](https://github.com/PalmaITEM/deliverables-template), 
+which again was adapted from the netCommons project template [](http://www.netcommons.eu).
 
 ## Usage
 
@@ -16,18 +18,9 @@ You should also edit the file **title.tex** for defining deliverable specific op
 The project logo in the footer can be changed by editing the following line:
 
 ```
-\newcommand{\footerlogo}{\raisebox{3mm}{\leavevmode\includegraphics[width=2cm]{SINet}}}
+\newcommand{\footerlogo}{\raisebox{3mm}{\leavevmode\includegraphics[width=2cm]{...}}}
 ```
 
 ## License
 
 Distributed under a Creative Commons license. See ``LICENSE`` for more information.
-
-## About
-
-This template results from the work conducted in the Software-defined Intermittent Networking [SINet](http://sinet.dpalma.eu) project.
-
-The aim of this project is to define a networking solution for heterogeneous intermittent networks. The focus is on challenging environments such as the Arctic, addressing multi-disciplinary fields beyond surface communications, including space, airborne and underwater systems.
-
-This project is funded by the European Union’s Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie Grant Agreement No. 699924. The Individual Fellowship is hosted by NTNU, the Norwegian University of Science and Technology, including a secondment at BitReactive.
-
