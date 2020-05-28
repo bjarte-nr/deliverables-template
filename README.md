@@ -20,7 +20,7 @@ You should also edit the file **title.tex** for defining deliverable specific op
 The template has some problematic issues -- help apreciated!
 
 * The footer is supposed to have a some lines of text to the left of the logo
-* The Chapter titles lack space between the number and the text, e.g., "1.Introduction". (This seems to be a side-effect of the package "sectsty" that is used to get color in headings
+* The Chapter titles lack space between the number and the text, e.g., "1.Introduction". (This seems to be a side-effect of the package "sectsty" that is used to get color in headings.)
 
 
 
