@@ -15,11 +15,14 @@ You should also edit the file **title.tex** for defining deliverable specific op
 2. the deliverable number  (`\newcommand{\DelNumber}{DX.X}`)
 3. and, the deliverable version (`\newcommand{\DelVersion}{0.X/1.0}`)
 
-The project logo in the footer can be changed by editing the following line:
+## Issues
 
-```
-\newcommand{\footerlogo}{\raisebox{3mm}{\leavevmode\includegraphics[width=2cm]{...}}}
-```
+The template has some problematic issues -- help apreciated!
+
+* The footer is supposed to have a some lines of text to the left of the logo
+* The Chapter titles lack space between the number and the text, e.g., "1.Introduction". (This seems to be a side-effect of the package "sectsty" that is used to get color in headings
+
+
 
 ## License
 
