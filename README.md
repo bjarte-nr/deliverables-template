@@ -13,9 +13,9 @@ You should also edit the file **title.tex** for defining deliverable specific op
 
 1. the deliverable title (`\newcommand{\DelTitle}{Title of this deliverable}`)
 2. the deliverable number  (`\newcommand{\DelNumber}{DX.X (DYY)}`)
-3. and, the deliverable version (`\newcommand{\DelVersion}{0.X/1.0}`)
+3. and, optionally, a deliverable version (`\newcommand{\DelVersion}{0.X/1.0}`)
 
-Note: The number in parenthesis after the deliverable number, `(DYY)}`, is a running number and may be found [here](https://sharepoint.utwente.nl/Project/PriMa/_layouts/15/start.aspx#/Lists/Deliverables/AllItems.aspx).
+Note: The number in parenthesis after the deliverable number, `(DYY)`, is a running number and may be found [here](https://sharepoint.utwente.nl/Project/PriMa/_layouts/15/start.aspx#/Lists/Deliverables/AllItems.aspx).
 
 ## Issues
 
